@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.features-img {
+    width: 50%;
+    height: 550px;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+}
+
+.features-main {
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 1rem;
+}

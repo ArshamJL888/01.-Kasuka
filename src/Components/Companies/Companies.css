@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.companies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 0.4rem;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}

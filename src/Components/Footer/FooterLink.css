@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    font-size: 1rem;
+    color: #FFF;
+    font-weight: 500;
+    transition: all 0.15s linear;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+
+.link:hover{
+    color: #BBB;
+}
+
+.sign{
+    font-size: 1rem;
+    color: #FFD700;
+}

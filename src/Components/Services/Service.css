@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.service-container {
+    width: 25rem;
+    height: 15rem;
+    padding: 1.2rem;
+    border: 1px solid #CCC;
+    margin-bottom: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-img {
+    margin: 0.5rem auto;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.service-title{
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    
+}
+
+.service-text {
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.service-container:hover{
+    transform: translateY(-10px) scale(1.005);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 3px 15px;
+}
+
+.service-text::selection{
+    
+}

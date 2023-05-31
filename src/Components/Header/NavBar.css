@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+.nav-container{
+    width: 100%;
+    height: 70px;
+    z-index: 9999;
+}
+
+.nav {
+    padding: 0.2rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    
+}
+
+.text-logo {
+    font-size: 2.5rem;
+    font-weight: 900;
+    /* font-family: 'TTNorms Medium'; */
+}
+
+.logo-img {
+    width: 75px;
+    height: 75px;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.menu>li {
+    margin-right: 1.5rem;
+}
+
+.start-btn {
+    outline: none;
+    border: 1.5px solid #FFD700;
+    background-color: black;
+    color: #FFD700;
+    border-radius: 0.3rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 550;
+    margin-right: 0.3rem;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.start-btn:hover {
+    background-color: gold;
+    color: black;
+    border-color: black;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 550;
+    transition: 0.15s all ease-in-out;
+}
+
+.menu>li>a:hover {
+    color: #FFD700;
+}

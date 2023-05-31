@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box-container {
+    width: 12rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px #FFF solid;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.box-text {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.box-container>img {
+    width: 35px;
+    margin: 0 auto;
+    height: 35px;
+}
+
+.box-container:hover {
+    transform: scale(1.05) translateY(-1px);
+    background-color: #999;
+    color: #000;
+}

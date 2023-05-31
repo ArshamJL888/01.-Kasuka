@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.feature-title, .feature-details, .feature-container{
+    text-align: left;
+}
+
+.features-container{
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.feature-img {
+    margin-top: 1.2rem;
+}
+
+.feature-title {
+    font-size: 1.3rem;
+}
+
+.feature-details {
+    font-size: 1.1rem;
+}

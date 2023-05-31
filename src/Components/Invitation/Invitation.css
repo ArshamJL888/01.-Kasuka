@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.invite-out {
+    width: 100%;
+    height: 45vh;
+    background-image: url('../../../public/images/img/backgrounds/towers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem auto;
+}
+
+.invite-container {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.invite {
+    margin: 2rem auto;
+}
+
+
+.invite-title {
+    color: #FFF;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1rem auto;
+    padding: 3rem 0 2rem 0;
+}
+
+.invite-text {
+    color: #FFF;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    width: 60rem;
+}
+
+.invite-btn {
+    color: #FFF;
+    background-color: transparent;
+    border: 3px solid #FFF;
+    border-radius: 0.3rem;
+    outline: none;
+    padding: 0.6rem 1.2rem;
+    letter-spacing: 1.2px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    margin: 1rem auto;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.invite-btn:hover{
+    color: #000;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}

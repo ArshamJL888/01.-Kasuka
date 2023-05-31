@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.company-logo {
+    max-width: 7rem;
+    opacity: 0.3;
+    transition: all 0.18s ease-in;
+    cursor: pointer;
+}
+
+.company-logo:hover{
+    opacity: 1;
+}

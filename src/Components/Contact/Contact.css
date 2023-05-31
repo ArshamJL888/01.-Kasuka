@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contact-id {
+    margin-top: 3rem;
+}
+
+hr.line {
+    width: 12rem;
+    margin-top: 0.2rem;
+    border: 1px solid #FFD700;
+}
+
+.contact-section{
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.contact-section>h4 {
+    color: #444;
+}
+
+.contact-title{
+    text-align: left;
+    font-size: 2rem;
+    padding: 0 3rem;
+}
+.contact-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 0 2rem;
+}
+

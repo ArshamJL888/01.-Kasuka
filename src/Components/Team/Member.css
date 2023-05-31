@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.member-container {
+    width: 20rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: #777 1px 3px 10px;
+    transition: all 0.2s ease-out;
+}
+
+.member-container:hover{
+    transform: translateY(-10px);
+}
+
+.member-photo {
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+}
+/* 
+.member-photo:hover{
+    transform: scale(1.05);
+} */
+
+.member-info{
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.member-name{
+    font-size: 1.3rem;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+.member-post{
+    color: #777;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
